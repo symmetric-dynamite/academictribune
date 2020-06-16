@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="sidebar.css">
+  <script>
+       $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+  </script>
+</head>
+<body>
+    <ul id="slide-out" class="sidenav black">
+        <li class="one"><a href="#!">About</a></li>
+        <li><a id="menu" href="#!">Submit Op-Ed</a>
+             <!-- Tap Target Structure -->
+  <div class="tap-target" data-target="menu">
+    <div class="tap-target-content">
+      <h5>Title</h5>
+      <p>A bunch of text</p>
+    </div>
+  </div>
+          
+        </li>
+        <li><a href="#!">Privacy Policy</a></li>
+        <li class="no-padding"></li>
+        <hr class="hrline">
+        <li class="one"><a href="#!">Urban Economics</a></li>
+        <li><a href="#!">Trade</a></li>
+        <li><a href="#!">Environment</a></li>
+        <li><a href="#!">Education Reform</a></li>
+        <li><a href="#!">Social Security</a></li>
+        <li><a href="#!">Taxes</a></li>
+        
+
+        <li class="no-padding"></li>
+          </ul>
+   
+      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons medium" style=
+        "color: black;">menu</i></a>
+
+</body>
+</html>

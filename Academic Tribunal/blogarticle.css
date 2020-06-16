@@ -1,0 +1,51 @@
+blockquote { 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+h3 { 
+    padding-bottom: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-align: center;
+}
+
+a { 
+    color: white !important;
+    font-size: 1.5rem !important;
+    
+}
+
+.one { 
+    margin-top: 2rem;
+}
+
+.hrline { 
+    margin-top: 2rem;
+}
+
+p, span { 
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cardrow { 
+    margin-top: 4rem;
+}
+
+.footerstyle  {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.0;
+    text-align: center;
+}
+
+.readmorelink { 
+    color: green !important;
+}
+
+.revealtext { 
+    font-size: 1.5rem !important; 
+}

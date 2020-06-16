@@ -1,0 +1,43 @@
+a { 
+    color: white !important;
+    font-size: 1.5rem !important;
+    
+}
+
+.one { 
+    margin-top: 2rem;
+}
+
+.hrline { 
+    margin-top: 2rem;
+}
+
+.footerstyle  {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.0;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+p { 
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.listedit { 
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+}
+
+h4 { 
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 2rem; 
+}
